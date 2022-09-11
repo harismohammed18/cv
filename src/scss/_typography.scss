@@ -1,0 +1,36 @@
+.heading {
+  &-one {
+    font-size: 2.7rem;
+    letter-spacing: 0.1rem;
+    margin: unset;
+    font-weight: 600;
+    font-family: $times-new-roman-font;
+  }
+  &-two {
+    font-size: 2rem;
+    margin: unset;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+    font-family: $times-new-roman-font;
+  }
+}
+
+.label {
+  &-primary {
+    color: $label-primary-color;
+    font-size: $label-primary-size;
+    border-bottom: $label-primary-border-bottom;
+    padding: $label-primary-padding;
+    margin: unset;
+    font-weight: $label-primary-font-weight;
+  }
+}
+
+.summary-text {
+  color: $summary-text-color;
+  font-size: $summary-text-size;
+  padding: $summary-text-padding;
+  line-height: $summary-text-line-height;
+  margin: unset;
+  text-align: justify;
+}
