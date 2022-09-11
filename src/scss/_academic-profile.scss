@@ -1,0 +1,23 @@
+.academic-profile {
+  &-card {
+    &:not(:first-child) {
+      margin-top: 2rem;
+    }
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &-year {
+      width: 20%;
+    }
+    &-college {
+      width: 60%;
+    }
+    &-place {
+      width: 20%;
+      p {
+        text-align: right;
+      }
+    }
+  }
+}

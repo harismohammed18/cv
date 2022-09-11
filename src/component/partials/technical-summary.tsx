@@ -33,7 +33,10 @@ const TechnicalSummary = () => {
       <LabelPrimary title="Technical Profile" />
       <div className="technical-profile m-t-15">
         {titles.map((data, index) => (
-          <div className="technical-profile-card  m-t-10" key={index}>
+          <div
+            className={`technical-profile-card ${index > 1 && "m-t-10"}`}
+            key={index}
+          >
             <h4 className="label-tertiary">{data.title}</h4>
             <p className="summary-text">{data.text}</p>
           </div>
