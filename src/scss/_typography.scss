@@ -23,6 +23,15 @@
     padding: $label-primary-padding;
     margin: unset;
     font-weight: $label-primary-font-weight;
+    font-family: $label-primary-font-family;
+  }
+  &-tertiary {
+    color: $label-tertiary-color;
+    font-size: $label-tertiary-size;
+    padding: $label-tertiary-padding;
+    margin: unset;
+    font-weight: $label-tertiary-font-weight;
+    font-family: $label-tertiary-font-family;
   }
 }
 
@@ -31,6 +40,7 @@
   font-size: $summary-text-size;
   padding: $summary-text-padding;
   line-height: $summary-text-line-height;
+  font-family: $summary-text-font-family;
   margin: unset;
   text-align: justify;
 }

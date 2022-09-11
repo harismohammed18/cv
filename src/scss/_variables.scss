@@ -11,12 +11,22 @@ $label-primary-size: 1.5rem;
 $label-primary-padding: 0 0 0.5rem 0;
 $label-primary-font-weight: 600;
 $label-primary-border-bottom: 0.2rem solid #2e3d60;
+$label-primary-font-family: $times-new-roman-font;
+
+// tertiary label
+$label-tertiary-color: #000;
+$label-tertiary-size: 1.5rem;
+$label-tertiary-padding: 0 0 0.5rem 0;
+$label-tertiary-font-weight: bolder;
+$label-tertiary-font-family: $times-new-roman-font;
+
 // summary-text
 $summary-text-color: #000;
 $summary-text-size: 1.5rem;
 $summary-text-line-height: 2rem;
 $summary-text-padding: 0 0 0.5rem 0;
 $summary-text-font-weight: 400;
+$summary-text-font-family: $base-font;
 
 //overview section
 $overview-section-height: 25rem;
@@ -31,3 +41,8 @@ $overview-details-section-color: #fff;
 //details section
 $details-section-padding: $base-padding - 2rem $base-padding $base-padding
   $base-padding;
+
+//technical-profile
+$technical-profile-margin: 1.5rem 0 0 0;
+$technical-profile-card-width: 50%;
+$technical-profile-card-padding: 2rem;

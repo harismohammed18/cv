@@ -1,5 +1,5 @@
 import React from "react";
-import { OverviewSection, ProfileSummary } from "./partials";
+import { OverviewSection, ProfileSummary, TechnicalSummary } from "./partials";
 
 const CvLandingPage = () => {
   return (
@@ -7,6 +7,9 @@ const CvLandingPage = () => {
       <OverviewSection />
       <div className="details-section">
         <ProfileSummary />
+        <div className="m-t-15">
+          <TechnicalSummary />
+        </div>
       </div>
     </div>
   );
