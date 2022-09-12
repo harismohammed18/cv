@@ -34,7 +34,7 @@ const OverviewSection = () => {
     },
     {
       iconName: "fa-brands fa-github",
-      text: " https://github.com/harismohammed18",
+      text: "https://github.com/harismohammed18",
       isLink: true,
       path: "https://github.com/harismohammed18",
     },

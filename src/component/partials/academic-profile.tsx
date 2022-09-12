@@ -34,13 +34,13 @@ const AcademicProfile = () => {
             <div className="academic-profile-card-college">
               <h4 className="label-tertiary">
                 {academicProfile.course.program}
-              </h4>
+              </h4> 
               <a
                 className="summary-text"
                 href={academicProfile.course.collegeLink}
               >
                 {academicProfile.course.college}
-                <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                <i className="fa-solid fa-arrow-up-right-from-square m-l-5"></i>
               </a>
             </div>
             <div className="academic-profile-card-place">
