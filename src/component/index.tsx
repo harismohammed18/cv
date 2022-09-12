@@ -1,6 +1,7 @@
 import React from "react";
 import {
   AcademicProfile,
+  Certificates,
   OverviewSection,
   ProfileSummary,
   TechnicalSummary,
@@ -17,6 +18,9 @@ const CvLandingPage = () => {
         </div>
         <div className="m-t-15">
           <AcademicProfile />
+        </div>
+        <div className="m-t-15">
+          <Certificates />
         </div>
       </div>
     </div>
