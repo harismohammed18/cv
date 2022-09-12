@@ -4,6 +4,7 @@ import {
   Awards,
   CareerMilestones,
   Certificates,
+  Languages,
   OverviewSection,
   ProfessionalExperience,
   ProfileSummary,
@@ -33,6 +34,9 @@ const CvLandingPage = () => {
         </div>
         <div className="m-t-15">
           <CareerMilestones />
+        </div>
+        <div className="m-t-15">
+          <Languages />
         </div>
       </div>
     </div>

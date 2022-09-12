@@ -6,3 +6,4 @@ export { default as Certificates } from "./certificates";
 export { default as ProfessionalExperience } from "./professional-experience";
 export { default as Awards } from "./awards";
 export { default as CareerMilestones } from "./career-milestones";
+export { default as Languages } from "./languages";
