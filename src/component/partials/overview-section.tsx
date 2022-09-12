@@ -42,7 +42,7 @@ const OverviewSection = () => {
   return (
     <div className="overview-section">
       <img
-        src={process.env.PUBLIC_URL + `/images/profile.jpg`}
+        src={`${process.env.PUBLIC_URL}/images/profile.jpg`}
         className="profile-image"
         alt="profile pic"
       />
