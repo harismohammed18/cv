@@ -3,6 +3,7 @@ import {
   AcademicProfile,
   Certificates,
   OverviewSection,
+  ProfessionalExperience,
   ProfileSummary,
   TechnicalSummary,
 } from "./partials";
@@ -21,6 +22,9 @@ const CvLandingPage = () => {
         </div>
         <div className="m-t-15">
           <Certificates />
+        </div>
+        <div className="m-t-15">
+          <ProfessionalExperience />
         </div>
       </div>
     </div>
