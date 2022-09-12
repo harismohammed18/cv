@@ -2,6 +2,7 @@ import React from "react";
 import {
   AcademicProfile,
   Awards,
+  CareerMilestones,
   Certificates,
   OverviewSection,
   ProfessionalExperience,
@@ -29,6 +30,9 @@ const CvLandingPage = () => {
         </div>
         <div className="m-t-15">
           <Awards />
+        </div>
+        <div className="m-t-15">
+          <CareerMilestones />
         </div>
       </div>
     </div>
