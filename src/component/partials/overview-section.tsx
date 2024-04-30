@@ -4,11 +4,7 @@ import { OverviewAddrLineProps } from "../types";
 
 const OverviewSection = () => {
   const addressDetails: Array<OverviewAddrLineProps> = [
-    {
-      iconName: "fa-solid fa-location-pin",
-      text: "Chothedath Palliyalil (H), Valiyakunnu(PO), Malappuram (DST), 676552, India",
-      isLink: false,
-    },
+    
     {
       iconName: "fa-solid fa-envelope",
       text: "hariscpvkn@gmail.com",
@@ -17,9 +13,9 @@ const OverviewSection = () => {
     },
     {
       iconName: "fa-solid fa-phone",
-      text: "+91-9633839726",
+      text: "+971-553159910, +91-9633839726",
       isLink: true,
-      path: "tel:+91-9633839726",
+      path: "tel:+971-553159910",
     },
     {
       iconName: "fa-solid fa-calendar-days",
