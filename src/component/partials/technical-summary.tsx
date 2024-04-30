@@ -21,7 +21,7 @@ const TechnicalSummary = () => {
     },
     {
       title: "Tools and Libraries",
-      text: "ReactJS, VueJS, GIT, Webpack, Redis, Botpress, Adobe XD, Bootstrap, Material UI, Redux, Socket.io, Vuetify, Apache Kafka, SCSS, Docker",
+      text: "ReactJS, VueJS, GIT,OpenAI, Webpack, Redis, Botpress, Adobe XD, Bootstrap, Material UI, Redux, Socket.io, Vuetify, Apache Kafka, SCSS, Docker",
     },
     {
       title: "Frameworks",

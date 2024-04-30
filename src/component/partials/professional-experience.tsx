@@ -13,7 +13,39 @@ const ProfessionalExperience = () => {
   }> = [
     {
       key: React.useId(),
-      duration: "Dec 2020 - present",
+      duration: "Jun 2023 - Present",
+      companyName: "Emirates NBD",
+      position: "Senior Fullstack engineer(Consultant)",
+      place: "Dubai, UAE",
+      companyLink: "https://www.emiratesnbd.com/en",
+      responsibilities: [
+        `Migrated existing Digital Acquisition journey to latest React version and improved the performance`,
+        `Implemented document classification and extraction using openAI`,
+        `Implemented document classification using Azure document intelligence services`,
+      ],
+    },
+    {
+      key: React.useId(),
+      duration: "Jan 2023 - Jun 2023",
+      companyName: "Affinidi",
+      position: "Technical Lead",
+      place: "Bengaluru, KA, India",
+      companyLink: "https://www.affinidi.com/",
+      responsibilities: [
+        `Worked as a Senior UI developer/Tech lead and was involved in requirement gathering
+        directly with stakeholders`,
+        `Leading a team of 6 and mentoring Team members with their issues in code and logical
+        implementation`,
+        `Investigate the technology stock and conduct meeting with leads, and managers and
+        explains to them`,
+        `Designing the prototype and implementing it with the defined technology stock`,
+        `Allocate the issues to the team members with the JIRA task number and generate the
+        report`,
+      ],
+    },
+    {
+      key: React.useId(),
+      duration: "Dec 2020 - Jan 2023",
       companyName: "6d Technologies",
       position: "Technical Lead",
       place: "Bengaluru, KA, India",

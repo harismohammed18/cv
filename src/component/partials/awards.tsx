@@ -10,6 +10,11 @@ const Awards = () => {
     },
     {
       key: React.useId(),
+      title: "Best Performer - Recognition",
+      org: "Emirates NBD",
+    },
+    {
+      key: React.useId(),
       title: "National Conference in Frontiers IN Computing - Participant",
       org: "MES College of Engineering",
     },
